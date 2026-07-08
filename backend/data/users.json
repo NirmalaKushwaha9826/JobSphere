@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1765737264984",
+    "name": "Khushi Chaurasiya",
+    "email": "khushichaurasiya30@gmail.com",
+    "passwordHash": "$2b$10$k8kC8wiytbk/eTZwww9TfeJ/ntxQ/07yq/1x02U0PwYVxkWe7OduK",
+    "role": "candidate",
+    "createdAt": "2025-12-14T18:34:24.984Z"
+  },
+  {
+    "id": "1781108923444",
+    "name": "Vikas Solutions",
+    "email": "recruiter_vikas@vikassolutions.com",
+    "passwordHash": "$2b$10$iX4auDVKwzcX4nQ40Uj1g.c5Yh.XMRjANSdAOw/3AIOzocwE2UIoq",
+    "role": "employer",
+    "createdAt": "2026-06-10T16:28:43.444Z"
+  }
+]

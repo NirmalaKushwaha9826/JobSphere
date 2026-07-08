@@ -1,0 +1,71 @@
+:root {
+  --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-primary: #0b1329;       /* Deep navy-black */
+  --bg-secondary: #1e293b;     /* Slate-800 Card bg */
+  --bg-tertiary: #0f172a;      /* Slate-900 Input bg */
+  --border-color: #334155;     /* Slate-700 Border */
+  --text-primary: #f8fafc;     /* White/Light Slate */
+  --text-secondary: #cbd5e1;   /* Muted Slate */
+  --primary: #2563eb;          /* Brand Blue */
+  --primary-hover: #3b82f6;    /* Bright Blue */
+  --success: #10b981;          /* Emerald Green */
+  --warning: #f59e0b;          /* Amber Yellow */
+  --danger: #ef4444;           /* Rose Red */
+  
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.light-theme {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --border-color: #cbd5e1;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+}
+
+a {
+  color: var(--primary-hover);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #60a5fa;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--primary);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
